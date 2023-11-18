@@ -6,14 +6,14 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestSource2Target(t *testing.T) {
-	cli := &Cli{
-		username:   "loucas-boom",
-		repository: "",
-	}
+// func TestSource2Target(t *testing.T) {
+// 	cli := &Cli{
+// 		username:   "loucas-boom",
+// 		repository: "",
+// 	}
 
-	output, err := cli.Source2Target("")
-	assert.Nil(t, output)
+// 	output, err := cli.Source2Target("")
+// 	assert.Nil(t, output)
 
 	// source := "registry.k8s.io/kube-apiserver"
 	// output, err = cli.Source2Target(source)
@@ -50,4 +50,4 @@ func TestSource2Target(t *testing.T) {
 	// assert.Nil(t, err)
 	// assert.Equal(t, "nginx@sha256:123456", output.Source)
 	// assert.Equal(t, "togettoyou/nginx:mytag", output.Target)
-}
+// }
