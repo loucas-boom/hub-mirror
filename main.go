@@ -9,7 +9,7 @@ import (
 	"text/template"
 
 	"github.com/spf13/pflag"
-	"github.com/loucas-boom/hub-mirror/tree/master/pkg"
+	"github.com/togettoyou/hub-mirror/pkg"
 )
 
 var (
